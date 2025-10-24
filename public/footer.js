@@ -1,3 +1,3 @@
-document.querySelector('#footer').innerHTML = `
-    <p>© ${new Date().getFullYear()} сайт</p>
-`;
+const footerHTML = document.querySelector('#footer');
+
+footerHTML.innerHTML = `<p>© ${new Date().getFullYear()} сайт</p>`;
